@@ -14,7 +14,6 @@ message = input("> ").lower()
 output1 = " "
 for letter in range(0,len(message)):
     output1 += code.get(message[letter],message[letter])
-print(output1)
 
 
 
